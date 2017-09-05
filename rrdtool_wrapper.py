@@ -40,3 +40,4 @@ if len(sys.argv) > 1 and sys.argv[1] == "-":
                         pipe(process, line)
 else:
         os.execlp(rrd, *([rrd] + sys.argv[1:]))
+
